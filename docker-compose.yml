@@ -2,5 +2,5 @@ version: '2'
 
 services:
   ubuntu:
-    image: chaznet/ubuntu:trusty
+    image: chaznet/amd64-ubuntu-sbn:14.04
     build: .

@@ -1,5 +1,5 @@
-FROM ubuntu:trusty-20170817
-MAINTAINER sameer@damagehead.com
+FROM chaznet/amd64-ubuntu:14.04
+MAINTAINER sameer@damagehead.com, chaz
 
 RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
  && echo 'APT::Install-Suggests 0;' >> /etc/apt/apt.conf.d/01norecommends \
